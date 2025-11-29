@@ -1,0 +1,117 @@
+# 🎤 Talk Through — Windows Voice Input Tool
+
+**Talk Through** is a lightweight floating microphone dot for Windows that lets you dictate text **into any app** using fast, local speech-to-text.  
+Just run the EXE and start talking anywhere — ChatGPT, Notion, Word, Discord, WhatsApp Desktop, browsers, and more.
+
+---
+
+## 🚀 How to Install
+
+### 1. Download the EXE
+Download the latest release:
+
+👉 **Talk_Through.exe**
+
+Place it anywhere you like (for example, Desktop or your Documents folder).
+
+---
+
+### 2. Run the App
+Double-click:
+
+
+A tiny **blue dot** will appear on the left side of your screen.  
+- **Blue = idle**  
+- **Red = recording**
+
+You can now use voice typing anywhere on your computer.
+
+---
+
+## 🎙 How to Use
+
+### **Hold-to-Talk Mode**
+- Hold: **Ctrl + Space**  
+- Speak  
+- Release → your speech appears as text in the active window
+
+### **Toggle Mode**
+- Press: **Ctrl + Shift + Space** (or **Left-click** the dot)
+- Dot turns red → recording  
+- Press again → transcribes & types text automatically  
+
+### **Right-Click The Dot for Settings**
+- Change Whisper model  
+- Change language  
+- Change hotkeys  
+- Enable/disable auto-punctuation  
+
+All settings are saved automatically.
+
+---
+
+## 🔄 Make It Start Automatically on Login
+
+### **Method 1 — Easiest (Startup Folder)**  
+1. Press **Win + R**  
+2. Type:
+
+
+
+
+3. Press Enter  
+4. Copy **Talk_Through_Dot.exe** or a shortcut into this folder
+
+The app will now launch automatically every time you log into Windows.
+
+---
+
+### **Method 2 — Windows Startup Settings**
+1. Open **Settings → Apps → Startup**  
+2. If “Talk Through Dot” appears in the list  
+3. Toggle it **ON**
+
+If it doesn’t appear, use Method 1.
+
+---
+
+### **Method 3 — Task Scheduler (Advanced)**
+1. Open **Task Scheduler**  
+2. Click **Create Task**  
+3. Name it: `Talk Through Dot`  
+4. Check “Run whether user is logged on or not”  
+5. Add Trigger → **At log on**  
+6. Add Action → **Start a program**, choose `Talk_Through_Dot.exe`  
+7. Save
+
+This method launches the app even before the desktop fully loads.
+
+---
+
+## ❓ Troubleshooting
+
+### Dot shows, but typing doesn't work  
+Run the EXE as **Administrator** (keyboard hooks sometimes require it).
+
+### Microphone not working  
+Make sure your mic is the Windows **Default Recording Device**.
+
+### CPU is slow  
+Use the Settings window (Right-click dot) to switch to a smaller Whisper model (e.g., `tiny`).
+
+### Hotkeys conflict  
+You can change hotkeys in Settings (Right-click dot).
+
+---
+
+## 📝 Notes
+- All processing is **local** — no audio is sent to any cloud service  
+- The EXE may take a few seconds to load the Whisper model on first launch  
+- Safe to use on laptop, desktop, and touchscreen devices
+
+---
+
+## 🎉 You're Ready!
+Just run the app once, add it to startup if you want, and enjoy speech-to-text **anywhere** on Windows.
+
+If you like this tool, feel free to ⭐ the repo!
