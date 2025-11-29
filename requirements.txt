@@ -1,0 +1,6 @@
+PySide6
+sounddevice
+numpy
+faster-whisper
+keyboard
+pyautogui

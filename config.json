@@ -1,0 +1,7 @@
+{
+  "model_size": "small",
+  "language": "auto",
+  "hold_hotkey": "ctrl+space",
+  "toggle_hotkey": "ctrl+shift+space",
+  "auto_punct": true
+}
