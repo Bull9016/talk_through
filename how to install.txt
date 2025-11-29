@@ -2,7 +2,7 @@
 
 **Talk Through** is a lightweight floating microphone dot for Windows that lets you dictate text **into any app** using fast, local speech-to-text.  
 Just run the EXE and start talking anywhere — ChatGPT, Notion, Word, Discord, WhatsApp Desktop, browsers, and more.
-
+download the application here: https://github.com/Bull9016/talk_through/releases/tag/exeFile
 ---
 
 ## 🚀 How to Install
@@ -115,3 +115,4 @@ You can change hotkeys in Settings (Right-click dot).
 Just run the app once, add it to startup if you want, and enjoy speech-to-text **anywhere** on Windows.
 
 If you like this tool, feel free to ⭐ the repo!
+
